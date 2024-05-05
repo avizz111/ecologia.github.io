@@ -11,8 +11,8 @@ h1{
     text-align: center;
     position: relative;
     top: 30vh;
-    color: rgb(24, 41, 37);
-    font-family: algerian;
+    color: rgb(255, 255, 255);
+    font-family: zeus;
 }
 
 li{
@@ -22,7 +22,7 @@ li{
 
 a{
     text-decoration: none;
-    color: rgb(24, 41, 37);
+    color: rgb(255, 255, 255);
     margin-left: 0;
 }
 
@@ -72,4 +72,13 @@ iframe{
 
 p{
     padding-left: 10px;
+}
+
+*{
+    color: #fff;
+}
+
+@font-face{
+    font-family: zeus;
+    src: url(../Zeus-Land.ttf);
 }
