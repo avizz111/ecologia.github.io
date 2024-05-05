@@ -1,0 +1,75 @@
+header{
+    background-image: url(../portada.jpeg);
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+    margin-top: 0;
+}
+
+h1{
+    margin-top: 0;
+    text-align: center;
+    position: relative;
+    top: 30vh;
+    color: rgb(24, 41, 37);
+    font-family: algerian;
+}
+
+li{
+    list-style: none;
+    margin-left: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(24, 41, 37);
+    margin-left: 0;
+}
+
+#indice{
+    display: block;
+    background-color: rgba(15, 116, 92, 0.75);
+    padding: 5%;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 15%;
+    left: 0;
+    top: 5vh;
+    position: relative;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.zona_natural{
+    width: 90vw;
+    height: auto;
+    border: #e6e6fa solid 2px;
+    border-radius: 10px;
+    margin: auto;
+    left: 0;
+}
+
+.imagenes_ejemplo{
+    width: 80vw;
+    height: 40vw;
+    aspect-ratio: 1/1;
+    position: relative;
+    left: 5vw;
+    top: 5vw;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+iframe{
+    width: 80%;
+    aspect-ratio: 16/9;
+    position: relative;
+    left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 1em;
+}
+
+p{
+    padding-left: 10px;
+}

@@ -1,0 +1,16 @@
+proyecto de areas naturales protegidas
+    seleccionar una del estado que quiera 
+    investigarla 
+    presentacion
+    de manera individual
+    puntos que tiene que llevar:
+        -delimitar (el area) de donde quiero investigar
+        -la historia del area que voy a investigar
+        -plano del area (mapa)
+        -organizacion (quien lo controla)
+        -si existen movimientos sociales (del area donde elegi)
+        -las fiestas civiles y religiosas
+        -localizacion (donde esta exatamente)
+        -superficie total
+        -clima
+    fecha martes 23
