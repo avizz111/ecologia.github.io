@@ -48,6 +48,7 @@ a{
     border-radius: 10px;
     margin: auto;
     left: 0;
+    margin-bottom: 20px;
 }
 
 .imagenes_ejemplo{
@@ -82,4 +83,8 @@ p{
 @font-face{
     font-family: zeus;
     src: url(../Zeus-Land.ttf);
+}
+
+h2{
+    text-align: center;
 }
