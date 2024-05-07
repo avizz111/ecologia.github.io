@@ -100,7 +100,7 @@ nav ul li a{
     position: relative;
     top: 70%;
 }
-.indice, #conclusion{
+.indice, #conclusion,#autor{
     width: 90vw;
     height: auto;
     outline: #e6e6fa solid 2px;
@@ -113,4 +113,28 @@ nav ul li a{
 }
 .indice ul li{
     list-style: circle;
+}
+#img_conclusion{
+    animation: size 3s infinite linear;
+    width: 40%;
+}
+@keyframes size {
+    0%,100%{
+        transform: scale(0.8);
+    }
+    50%{
+        transform: scale(1);
+    }
+}
+#conclusion,#autor{
+    text-align: center;
+    width: 60vw;
+}
+#avatar{
+    width: 40%;
+    position: relative;
+    bottom: 20vh;
+}
+#autor{
+    margin-top: 20vh;
 }
