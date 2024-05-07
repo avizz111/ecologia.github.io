@@ -6,7 +6,6 @@ header{
     margin: 0;
     padding: 0;
 }
-
 h1{
     margin-top: 0;
     text-align: center;
@@ -16,18 +15,15 @@ h1{
     font-family: zeus;
     font-size: 64px;
 }
-
 li{
     list-style: none;
     margin-left: 0;
 }
-
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin-left: 0;
 }
-
 #indice{
     display: block;
     background-color: rgba(15, 116, 92, 0.75);
@@ -41,7 +37,6 @@ a{
     outline: 2px solid #000;
     border-radius: 10px;
 }
-
 .zona_natural{
     width: 90vw;
     height: auto;
@@ -51,7 +46,6 @@ a{
     left: 0;
     margin-bottom: 20px;
 }
-
 .imagenes_ejemplo{
     width: 80vw;
     height: 40vw;
@@ -61,7 +55,6 @@ a{
     outline: 10px;
     display: inline-block;
 }
-
 iframe{
     width: 80%;
     aspect-ratio: 16/9;
@@ -71,29 +64,53 @@ iframe{
     margin-bottom: 10%;
     border-radius: 1em;
 }
-
 p{
     padding-left: 10px;
 }
-
 *{
     color: #fff;
 }
-
 @font-face{
     font-family: zeus;
     src: url(../Zeus-Land.ttf);
 }
-
 h2{
     text-align: center;
 }
-
 #foot{
     height: 13em;
 }
-
 #foot h2{
     position: relative;
     top: 60%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
+    background-color: rgb(218, 194, 150);
+    position: relative;
+    bottom: 2.5vh;
+}
+nav ul li a{
+    position: relative;
+    top: 70%;
+}
+.indice, #conclusion{
+    width: 90vw;
+    height: auto;
+    outline: #e6e6fa solid 2px;
+    border-radius: 10px;
+    margin: auto;
+    left: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.indice ul li{
+    list-style: circle;
 }
