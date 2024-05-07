@@ -3,7 +3,8 @@ header{
     width: 100vw;
     height: 100vh;
     background-size: 100vw 100vh;
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -37,14 +38,14 @@ a{
     left: 0;
     top: 5vh;
     position: relative;
-    border: 2px solid #000;
+    outline: 2px solid #000;
     border-radius: 10px;
 }
 
 .zona_natural{
     width: 90vw;
     height: auto;
-    border: #e6e6fa solid 2px;
+    outline: #e6e6fa solid 2px;
     border-radius: 10px;
     margin: auto;
     left: 0;
@@ -57,8 +58,7 @@ a{
     aspect-ratio: 1/1;
     position: relative;
     left: 5vw;
-    top: 5vw;
-    border-radius: 10px;
+    outline: 10px;
     display: inline-block;
 }
 
@@ -87,4 +87,13 @@ p{
 
 h2{
     text-align: center;
+}
+
+#foot{
+    height: 13em;
+}
+
+#foot h2{
+    position: relative;
+    top: 60%;
 }
